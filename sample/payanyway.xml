@@ -4,8 +4,7 @@
 	<author>Andrey Sinitsyn</author>
 	<creationDate>Apr 2016</creationDate>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
-	<authorEmail>inf@eduopenru.ru</authorEmail>
-	<authorUrl>eduopenru.ru</authorUrl>
+	<authorEmail>sajob2015@yandex.ru</authorEmail>
 	<version>1.0.0</version>
 	<description>Компонент обработки сообщений от PayAnyWay</description>
     <update>
