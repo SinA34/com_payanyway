@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component">
+		<field name="mntdataintegritycode" type="text" default="" label="Код проверки целостности данных" 
+				description="Код проверки целостности данных PayAnyWay" size="30" />
+		<field
+			name="signature_on"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="Проверять подпись?"
+			description="Проверять подпись уведомления об оплате?" >
+			<option value="1">Да</option>
+			<option value="0">Нет</option>
+		</field>
+		<field
+			name="log_on"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="Включить sql лог?"
+			description="Включить сбор данных обо всех обращениях к компоненту?" >
+			<option value="1">Да</option>
+			<option value="0">Нет</option>
+		</field>			
+	</fieldset>
+</config>

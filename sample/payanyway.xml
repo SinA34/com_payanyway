@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.5.0" method="upgrade">
+	<name>Ответы PayAnyWay</name>
+	<author>Andrey Sinitsyn</author>
+	<creationDate>Apr 2016</creationDate>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>inf@eduopenru.ru</authorEmail>
+	<authorUrl>eduopenru.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>Компонент обработки сообщений от PayAnyWay</description>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+	<files folder="site">
+		<filename>payanyway.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<folder>models</folder>
+        <folder>views</folder>
+	</files>
+   <administration>
+        <menu>Данные PayAnyWay</menu>
+        <files folder="admin">
+        <filename>index.html</filename>
+        <filename>payanyway.php</filename>
+		<filename>controller.php</filename>
+		<filename>config.xml</filename>			
+        <folder>sql</folder>
+		<folder>models</folder>
+        <folder>views</folder>
+        </files>
+    </administration>
+</extension>
